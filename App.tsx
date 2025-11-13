@@ -1,8 +1,8 @@
 import React from 'react';
-import {View} from 'react-native';
+import AuthNavigation from './src/navigations/AuthNavigation';
 
 function App() {
-  return <View />;
+  return <AuthNavigation />;
 }
 
 export default App;
