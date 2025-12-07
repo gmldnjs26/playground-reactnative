@@ -1,8 +1,9 @@
 import React from 'react';
-import AuthNavigation from './src/navigations/AuthNavigation';
+// import AuthNavigation from './src/navigations/AuthNavigation';
+import DrawerNavigation from './src/navigations/DrawerNavigation';
 
 function App() {
-  return <AuthNavigation />;
+  return <DrawerNavigation />;
 }
 
 export default App;
